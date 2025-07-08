@@ -10,7 +10,7 @@ if (NOT PICO_PROGRAM_MAIN_ENTRY)
 	set(OUTPUT_DATA_PIN 8)
 
 	# Default output data/clocks pin for the SPI LED strips (only for apa102, not for sk6812/ws2812b)
-	# only certain pairs of pins are allowed for selected SPI interface (refer to "readme.md")
+	# only certain pairs of pins are allowed for selected SPI interface (refer to "readme.md")  
 	set(OUTPUT_SPI_DATA_PIN 3)
 	set(OUTPUT_SPI_CLOCK_PIN 2)
 	set(OUTPUT_SPI_INTERFACE spi0)
